@@ -3,9 +3,7 @@
 The purpose of this project is to develop a pipelined mini-MIPS processor capable for the following instruction set.
 NORI, SRL, XOR, NANDI, SUBU, ADDI, BEQ, LH, SW, JR and J. 
 
-## Usage 
 
-Load the project in modelsim tool -> compile all files -> simulate the testbench
 The instructions for executing the above variant are in the imem.vhd file. These instructions can be changed to test different scenarios.
 Furthermore, values can be changed in registers(regfile.vhd) and data memory(dmem.vhd) for new results.
 
